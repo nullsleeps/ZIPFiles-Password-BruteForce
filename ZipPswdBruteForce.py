@@ -4,8 +4,7 @@ import itertools
 charlist = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()-_=+[{]}";.,/`~±§'
 max_length = 4 
 
-# Open the ZIP file
-z = zipfile.ZipFile('secret.zip')
+z = zipfile.ZipFile('secret.zip') #Replace secret.zip with your zip file
 tries = 0
 
 def try_password(z, password):
